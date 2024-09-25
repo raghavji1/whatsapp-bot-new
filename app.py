@@ -143,4 +143,4 @@ def process_query(sender_id, query):
         send_message(sender_id, "Error processing your request. Please try again later.")
 
 if __name__ == '__main__':
-    app.run(debug=False,port=20000)
+    app.run(debug=False,host=0.0.0.0,port=5000)
